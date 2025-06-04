@@ -3,6 +3,7 @@
 {{-- content start --}}
 @section('formContent')
 <div class="container mt-5">
+    <h2>Simple Form</h2>
     <h2 class="mb-4">Contact Form</h2>
     <form method="POST" action="/store">
         @csrf
